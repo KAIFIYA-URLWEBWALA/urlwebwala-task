@@ -1,0 +1,58 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Prevent ALL horizontal scroll ──────────────── */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* ── Base ────────────────────────────────────────── */
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Every direct child of body that stretches full width
+   must not overflow — covers section, header, footer */
+body > * {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* ── Marquee ─────────────────────────────────────── */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+/* ── Orbit animations ───────────────────────────── */
+@keyframes cw  { from { transform: rotate(0deg); }   to { transform: rotate(360deg); } }
+@keyframes ccw { from { transform: rotate(0deg); }   to { transform: rotate(-360deg); } }
+
+.animate-orbit-cw-slow    { animation: cw  12s linear infinite; }
+.animate-orbit-ccw-medium { animation: ccw 14s linear infinite; }
+.animate-orbit-cw-medium  { animation: cw  10s linear infinite; }
+.animate-orbit-cw-fast    { animation: cw   8s linear infinite; }
+
+.animate-orbit-ccw-slow   { animation: ccw 12s linear infinite; }
+.animate-orbit-cw-medium  { animation: cw  14s linear infinite; }
+.animate-orbit-ccw-medium { animation: ccw 10s linear infinite; }
+.animate-orbit-ccw-fast   { animation: ccw  8s linear infinite; }
