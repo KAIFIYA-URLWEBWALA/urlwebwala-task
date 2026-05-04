@@ -76,7 +76,7 @@ function AccordionItem({ faq, isOpen, onToggle }) {
         {/* ICON */}
         <span
           className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300"
-          style={{ backgroundColor: "#f97316" }}
+          style={{ backgroundColor: "#E5093B" }}
         >
           <svg
             width="16"
@@ -100,7 +100,7 @@ function AccordionItem({ faq, isOpen, onToggle }) {
         </span>
 
         {/* QUESTION */}
-        <span className="font-semibold text-base md:text-lg transition-colors duration-300 group-hover:text-orange-500">
+        <span className="font-semibold text-base md:text-lg transition-colors duration-300 group-hover:text-[#E5093B]">
           {faq.question}
         </span>
       </button>
@@ -163,7 +163,7 @@ export default function FAQ() {
         
         {/* LEFT SIDE */}
         <div className="w-full md:w-5/12">
-          <p className="text-orange-500 font-semibold tracking-widest mb-3">
+          <p className="text-[#E5093B] font-semibold tracking-widest mb-3">
             FAQ
           </p>
 
@@ -177,7 +177,7 @@ export default function FAQ() {
           </p>
 
           {/* COUNTER */}
-          <div className="inline-flex items-center gap-4 bg-orange-50 border rounded-2xl px-8 py-6">
+          <div className="inline-flex items-center gap-4 bg-[#FFF0F3] border rounded-2xl px-8 py-6">
             <span className="text-5xl font-bold text-gray-900">
               {count}+
             </span>

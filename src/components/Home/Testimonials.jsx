@@ -118,14 +118,14 @@ export default function VideoTestimonial() {
           <div className="flex justify-center gap-6 mt-6">
             <button
               onClick={prev}
-              className="w-10 h-10 border border-[#ff5a2c] text-[#ff5a2c] rounded-full flex items-center justify-center hover:bg-[#ff5a2c] hover:text-white transition"
+              className="w-10 h-10 border border-[#E5093B] text-[#E5093B] rounded-full flex items-center justify-center hover:bg-[#E5093B] hover:text-white transition"
             >
               ←
             </button>
 
             <button
               onClick={next}
-              className="w-10 h-10 border border-[#ff5a2c] text-[#ff5a2c] rounded-full flex items-center justify-center hover:bg-[#ff5a2c] hover:text-white transition"
+              className="w-10 h-10 border border-[#E5093B] text-[#E5093B] rounded-full flex items-center justify-center hover:bg-[#E5093B] hover:text-white transition"
             >
               →
             </button>

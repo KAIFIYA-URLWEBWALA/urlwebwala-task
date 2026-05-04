@@ -13,7 +13,7 @@ export default function About() {
       {/* Content — same text, same layout */}
       <div data-aos="fade-left" data-aos-delay="150" className="max-w-md text-center lg:text-left">
 
-        <p className="text-[#ff5a2c] font-medium mb-2">Know About Us</p>
+        <p className="text-[#E5093B] font-medium mb-2">Know About Us</p>
 
         <h2 className="text-[26px] sm:text-[30px] md:text-[36px] font-bold leading-[1.2] mb-4">
           The Future of Mobile Software
@@ -25,12 +25,12 @@ export default function About() {
 
         <div className="space-y-3 text-sm">
           <div className="flex items-start gap-3 justify-center lg:justify-start">
-            <span className="text-[#ff5a2c] mt-0.5">✔</span>
+            <span className="text-[#E5093B] mt-0.5">✔</span>
             <p>Et purus duis sollicitudin dignissim</p>
           </div>
 
           <div className="flex items-start gap-3 justify-center lg:justify-start">
-            <span className="text-[#ff5a2c] mt-0.5">✔</span>
+            <span className="text-[#E5093B] mt-0.5">✔</span>
             <p>Venenatis cras sed eu massa</p>
           </div>
         </div>

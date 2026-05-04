@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#ff5a2c",
+        primary: "#E5093B",
       },
       animation: {
         // Original spin animations (kept for backwards compat)

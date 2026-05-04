@@ -14,7 +14,7 @@ export default function Features() {
 
         {/* Heading */}
         <div className="text-center mb-10 sm:mb-14" data-aos="fade-up">
-          <p className="text-[#ff5a2c] font-medium mb-2">Our Features</p>
+          <p className="text-[#E5093B] font-medium mb-2">Our Features</p>
           <h2 className="text-[22px] sm:text-[28px] md:text-[36px] font-bold leading-[1.2]">
             Everything You Need to Succeed
           </h2>
@@ -36,7 +36,7 @@ export default function Features() {
                 aria-hidden="true"
               />
 
-              <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#ff5a2c]/10 mb-5 group-hover:bg-[#ff5a2c] transition-all duration-300">
+              <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#E5093B]/10 mb-5 group-hover:bg-[#E5093B] transition-all duration-300">
                 <img src={item.icon} alt={item.title} className="w-7 group-hover:invert transition-all duration-300" />
               </div>
 

@@ -22,7 +22,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <img
-          src="/images/logo.svg"
+          src="/images/image.png"
           alt="Sobtech Logo"
           className="h-8 md:h-10 w-auto cursor-pointer"
           onClick={() => navigate("/")}
@@ -37,8 +37,8 @@ export default function Navbar() {
               className={({ isActive }) =>
                 `transition-colors duration-200 ${
                   isActive
-                    ? "text-[#ff5a2c] font-semibold"
-                    : "hover:text-[#ff5a2c]"
+                    ? "text-[#E5093B] font-semibold"
+                    : "hover:text-[#E5093B]"
                 }`
               }
             >
@@ -49,10 +49,10 @@ export default function Navbar() {
 
         {/* Buttons */}
         <div className="hidden lg:flex gap-4">
-          <button className="border border-[#ff5a2c] px-5 py-2 rounded-full text-sm hover:bg-[#ff5a2c] hover:text-white transition-all duration-200">
+          <button className="border border-[#E5093B] px-5 py-2 rounded-full text-sm hover:bg-[#E5093B] hover:text-white transition-all duration-200">
             Login
           </button>
-          <button className="bg-[#ff5a2c] text-white px-5 py-2 rounded-full text-sm shadow-md hover:-translate-y-[1px] hover:shadow-lg transition-all duration-200">
+          <button className="bg-[#E5093B] text-white px-5 py-2 rounded-full text-sm shadow-md hover:-translate-y-[1px] hover:shadow-lg transition-all duration-200">
             Sign Up
           </button>
         </div>
@@ -99,8 +99,8 @@ export default function Navbar() {
               className={({ isActive }) =>
                 `block py-1 transition-colors duration-200 ${
                   isActive
-                    ? "text-[#ff5a2c] font-semibold"
-                    : "hover:text-[#ff5a2c]"
+                    ? "text-[#E5093B] font-semibold"
+                    : "hover:text-[#E5093B]"
                 }`
               }
             >
@@ -109,10 +109,10 @@ export default function Navbar() {
           ))}
 
           <div className="flex gap-3 pt-3">
-            <button className="border border-[#ff5a2c] text-[#ff5a2c] px-4 py-2 rounded-full w-full text-sm hover:bg-[#ff5a2c] hover:text-white transition-all duration-200">
+            <button className="border border-[#E5093B] text-[#E5093B] px-4 py-2 rounded-full w-full text-sm hover:bg-[#E5093B] hover:text-white transition-all duration-200">
               Login
             </button>
-            <button className="bg-[#ff5a2c] text-white px-4 py-2 rounded-full w-full text-sm hover:bg-[#e84e24] transition-all duration-200">
+            <button className="bg-[#E5093B] text-white px-4 py-2 rounded-full w-full text-sm hover:bg-[#B3002D] transition-all duration-200">
               Sign Up
             </button>
           </div>

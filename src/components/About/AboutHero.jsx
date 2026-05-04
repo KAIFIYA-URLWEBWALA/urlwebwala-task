@@ -41,12 +41,12 @@ export default function AboutHero() {
           {/* Home */}
           <a
             href="/"
-            className="relative group transition-all duration-300 ease-out hover:text-[#ff5a2c]"
+            className="relative group transition-all duration-300 ease-out hover:text-[#E5093B]"
           >
             Home
 
             {/* underline animation */}
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#ff5a2c] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#E5093B] transition-all duration-300 group-hover:w-full"></span>
           </a>
 
           {/* Arrow */}
@@ -55,11 +55,11 @@ export default function AboutHero() {
           </span>
 
           {/* About */}
-          <span className="relative group cursor-default text-white/90 hover:text-[#ff5a2c] transition-all duration-300">
+          <span className="relative group cursor-default text-white/90 hover:text-[#E5093B] transition-all duration-300">
             About Us
 
             {/* underline animation */}
-            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#ff5a2c] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#E5093B] transition-all duration-300 group-hover:w-full"></span>
           </span>
 
         </div>

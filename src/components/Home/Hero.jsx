@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-r from-[#fff7f5] to-[#fdeee8] min-h-[90vh] flex items-center text-center overflow-hidden">
+    <section className="bg-gradient-to-r from-[#F8FAFF] to-[#EEF4FF] min-h-[90vh] flex items-center text-center overflow-hidden">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 w-full py-10 sm:py-16">
 
@@ -45,7 +45,7 @@ export default function Hero() {
             }}
           >
             {/* Ring */}
-            <div className="absolute inset-0 border border-[#ff5a2c]/40 rounded-full" />
+            <div className="absolute inset-0 border border-[#E5093B]/40 rounded-full" />
 
             {/* ✅ PERFECT CENTER IMAGE */}
             <img

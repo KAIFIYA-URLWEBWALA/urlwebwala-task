@@ -37,7 +37,7 @@ export default function Pricing() {
         <p
           data-aos="fade-up"
           data-aos-once="false"
-          className="text-[#ff5a2c] font-medium mb-2"
+          className="text-[#E5093B] font-medium mb-2"
         >
           Our Pricing
         </p>
@@ -100,7 +100,7 @@ export default function Pricing() {
                     data-aos-once="false"
                     className="flex items-center gap-2 text-gray-600 text-xs sm:text-sm group"
                   >
-                    <span className="w-4 h-4 bg-[#071c1f] rounded-full flex items-center justify-center text-white text-[10px] transition group-hover:bg-[#ff5a2c]">
+                    <span className="w-4 h-4 bg-[#0F172A] rounded-full flex items-center justify-center text-white text-[10px] transition group-hover:bg-[#E5093B]">
                       ✓
                     </span>
 
@@ -115,8 +115,8 @@ export default function Pricing() {
               <button
                 className={`w-full py-2.5 sm:py-3 rounded-full text-xs sm:text-sm transition-all duration-300
                 ${plan.active
-                  ? "bg-[#ff5a2c] text-white hover:opacity-90"
-                  : "border border-[#ff5a2c] text-[#ff5a2c] hover:bg-[#ff5a2c] hover:text-white hover:shadow-md"
+                  ? "bg-[#E5093B] text-white hover:opacity-90"
+                  : "border border-[#E5093B] text-[#E5093B] hover:bg-[#E5093B] hover:text-white hover:shadow-md"
                 }`}
               >
                 Start now →

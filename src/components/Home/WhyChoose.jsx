@@ -11,7 +11,7 @@ export default function WhyChoose() {
         className="max-w-lg text-center lg:text-left"
       >
 
-        <p className="text-[#ff5a2c] font-medium mb-3">
+        <p className="text-[#E5093B] font-medium mb-3">
           Why Choose Us
         </p>
 
@@ -36,7 +36,7 @@ export default function WhyChoose() {
               data-aos-once="false"
               className="flex items-center gap-3 justify-center lg:justify-start group"
             >
-              <span className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-full bg-[#ff5a2c]/10 text-[#ff5a2c] text-xs transition group-hover:bg-[#ff5a2c] group-hover:text-white">
+              <span className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-full bg-[#E5093B]/10 text-[#E5093B] text-xs transition group-hover:bg-[#E5093B] group-hover:text-white">
                 ✓
               </span>
               <p className="text-sm sm:text-base transition group-hover:translate-x-1">

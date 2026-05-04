@@ -62,7 +62,7 @@ export default function Projects() {
     <section className="relative py-16 sm:py-20 overflow-hidden">
 
       {/* Dark BG */}
-      <div className="absolute top-0 left-0 w-full h-[55%] bg-[#071c1f] -z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-[55%] bg-[#0F172A] -z-10"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
 
@@ -70,7 +70,7 @@ export default function Projects() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-10">
 
           <div data-aos="fade-up">
-            <p className="text-[#ff5a2c] font-medium mb-2">
+            <p className="text-[#E5093B] font-medium mb-2">
               Recent Projects
             </p>
 
@@ -83,14 +83,14 @@ export default function Projects() {
           <div className="hidden md:flex gap-4">
             <button
               onClick={() => scroll("left")}
-              className="w-10 h-10 border border-[#ff5a2c] text-[#ff5a2c] rounded-full hover:bg-[#ff5a2c] hover:text-white transition"
+              className="w-10 h-10 border border-[#E5093B] text-[#E5093B] rounded-full hover:bg-[#E5093B] hover:text-white transition"
             >
               ←
             </button>
 
             <button
               onClick={() => scroll("right")}
-              className="w-10 h-10 border border-[#ff5a2c] text-[#ff5a2c] rounded-full hover:bg-[#ff5a2c] hover:text-white transition"
+              className="w-10 h-10 border border-[#E5093B] text-[#E5093B] rounded-full hover:bg-[#E5093B] hover:text-white transition"
             >
               →
             </button>

@@ -37,7 +37,7 @@ export default function Blog() {
 
                 {/* Heading */}
                 <div data-aos="fade-up" className="mb-12">
-                    <p className="text-[#ff5a2c] font-medium mb-2">Our Blogs</p>
+                    <p className="text-[#E5093B] font-medium mb-2">Our Blogs</p>
 
                     <h2 className="text-[26px] sm:text-[30px] md:text-[38px] font-bold leading-[1.2]">
                         Boost Your Business with <br /> Digital most Marketing
@@ -83,7 +83,7 @@ export default function Blog() {
 
                                 <div className="group inline-block cursor-pointer">
 
-                                    <div className="flex items-center gap-2 text-[#ff5a2c] text-sm font-medium">
+                                    <div className="flex items-center gap-2 text-[#E5093B] text-sm font-medium">
                                         Read More
                                         <span className="transition-transform duration-300 group-hover:translate-x-1">
                                             →
@@ -91,7 +91,7 @@ export default function Blog() {
                                     </div>
 
                                     {/* UNDERLINE */}
-                                    <span className="block h-[2px] w-0 bg-[#ff5a2c] transition-all duration-300 group-hover:w-full"></span>
+                                    <span className="block h-[2px] w-0 bg-[#E5093B] transition-all duration-300 group-hover:w-full"></span>
 
                                 </div>
                             </div>

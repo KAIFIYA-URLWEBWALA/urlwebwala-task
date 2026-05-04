@@ -22,7 +22,7 @@ export default function Services() {
 
       {/* Heading — same text, fixed responsive sizes */}
       <div className="text-center mb-12" data-aos="fade-up">
-        <p className="text-[#ff5a2c] font-medium mb-2">
+        <p className="text-[#E5093B] font-medium mb-2">
           Our Services
         </p>
 
@@ -42,7 +42,7 @@ export default function Services() {
           >
 
             {/* Icon — same circle design */}
-            <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center rounded-full bg-[#ff5a2c]/10 mb-5 sm:mb-6 group-hover:bg-[#ff5a2c] transition-all duration-300">
+            <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center rounded-full bg-[#E5093B]/10 mb-5 sm:mb-6 group-hover:bg-[#E5093B] transition-all duration-300">
               <img
                 src={item.icon}
                 alt={item.title}

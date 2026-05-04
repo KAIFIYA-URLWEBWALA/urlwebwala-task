@@ -32,7 +32,7 @@ export default function Team() {
 
         {/* Heading */}
         <div data-aos="fade-up" className="mb-12">
-          <p className="text-[#ff5a2c] font-medium mb-2">Our Team</p>
+          <p className="text-[#E5093B] font-medium mb-2">Our Team</p>
 
           <h2 className="text-[26px] sm:text-[30px] md:text-[38px] font-bold leading-[1.2]">
             Unleash the Power of the <br /> Digital Advertising
@@ -63,7 +63,7 @@ export default function Team() {
                 <p className="text-sm text-gray-500">Mentor</p>
                 <div className="w-full h-[4px] bg-gray-200 rounded-full mt-1 mb-3">
                   <div
-                    className="h-full bg-[#ff5a2c] rounded-full transition-all duration-500"
+                    className="h-full bg-[#E5093B] rounded-full transition-all duration-500"
                     style={{ width: `${progress[i]}%` }}
                   ></div>
                 </div>
@@ -71,7 +71,7 @@ export default function Team() {
                 <p className="text-sm text-gray-500">Designer</p>
                 <div className="w-full h-[4px] bg-gray-200 rounded-full mt-1 mb-4">
                   <div
-                    className="h-full bg-[#ff5a2c] rounded-full transition-all duration-500"
+                    className="h-full bg-[#E5093B] rounded-full transition-all duration-500"
                     style={{ width: `${Math.max(progress[i] - 15, 0)}%` }}
                   ></div>
                 </div>
@@ -102,8 +102,8 @@ export default function Team() {
                     <div
                       key={idx}
                       className="w-8 h-8 flex items-center justify-center 
-                      bg-white text-[#ff5a2c] rounded-full 
-                      hover:bg-[#ff5a2c] hover:text-white 
+                      bg-white text-[#E5093B] rounded-full 
+                      hover:bg-[#E5093B] hover:text-white 
                       transition duration-300 cursor-pointer hover:scale-110"
                     >
                       <Icon size={12} />
@@ -116,7 +116,7 @@ export default function Team() {
 
               {/* GLOW BORDER */}
               <div className="absolute inset-0 rounded-[22px] border border-transparent 
-              group-hover:border-[#ff5a2c]/40 transition duration-500"></div>
+              group-hover:border-[#E5093B]/40 transition duration-500"></div>
 
             </div>
           ))}
