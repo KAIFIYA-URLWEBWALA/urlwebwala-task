@@ -1,0 +1,5 @@
+<svg class="transition-all duration-300" id="menu-btn" width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="0.00195313" y1="11.9844" x2="29.9996" y2="11.9844" stroke="currentColor" stroke-width="3"></line>
+              <path d="M5.00195 21.8789H30" stroke="currentColor" stroke-width="3"></path>
+              <path d="M10.002 2.12891H30.0004" stroke="currentColor" stroke-width="3"></path>
+            </svg>

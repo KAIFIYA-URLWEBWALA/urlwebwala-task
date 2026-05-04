@@ -1,16 +1,11 @@
-import Navbar      from "./components/Navbar";
-import Hero        from "./components/Hero";
-import Services    from "./components/Services";
-import About       from "./components/About";
-import Clients     from "./components/Clients";
-import WhyChoose   from "./components/WhyChoose";
-// import Features    from "./components/Features";
-// import Projects    from "./components/Projects";
-// import Testimonials from "./components/Testimonials";
-import Footer      from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar.jsx";
+import Home from "./components/Home/Home.jsx";
+import About from "./components/About/About.jsx";
+// import Contact from "./components/Contact/Contact";
 
 function App() {
   useEffect(() => {
@@ -24,18 +19,17 @@ function App() {
   }, []);
 
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Hero />
-      <Services />
-      <About />
-      <Clients />
-      <WhyChoose />
-      {/* <Features />
-      <Projects /> */}
-      {/* <Testimonials /> */}
-      <Footer />
-    </>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+
+    </BrowserRouter>
+
   );
 }
 
