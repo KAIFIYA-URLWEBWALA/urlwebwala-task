@@ -1,9 +1,9 @@
 import Hero from "./Hero";
-import Services from "./Services";
+import Service from "./Service";
 import About from "./About";
 import Clients from "./Clients";
 import WhyChoose from "./WhyChoose";
-import Projects from "./Projects";
+import Project from "./Project";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 import Pricing from "./Pricing";
@@ -15,12 +15,12 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Services />
+      <Service />
       <About />
       <Clients />
       <WhyChoose />
       {/* <Features /> */}
-      <Projects />
+      <Project />
       <Pricing />
       <Testimonials />
       <Team/>

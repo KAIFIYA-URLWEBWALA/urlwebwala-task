@@ -5,7 +5,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
+import Footer from "./components/Footer.jsx";
+import Services from "./components/Services/Services.jsx";
+import Projects from "./components/Projects/Projects.jsx";
 // import Contact from "./components/Contact/Contact";
+import Blogs from "./components/Blogs/Blogs.jsx";
 
 function App() {
   useEffect(() => {
@@ -25,9 +29,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
-      </Routes>
+        <Route path="/services" element={<Services />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/blogs" element={<Blogs />} />
 
+      </Routes>
+      <Footer />
     </BrowserRouter>
 
   );

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export default function Projects() {
+export default function Project() {
   const scrollRef = useRef();
   let autoScrollInterval;
 
