@@ -9,6 +9,7 @@ import About from "./components/About/About.jsx";
 import Services from "./components/Services/Services.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import Blogs from "./components/Blogs/Blogs.jsx";
+import Contact from "./components/Contacts/Contact.jsx";
 
 // Pages sub-routes
 import ServiceDetails from "./components/Pages/Service Details/ServiceDetails.jsx";
@@ -30,16 +31,17 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/"                element={<Home />} />
-        <Route path="/about"           element={<About />} />
-        <Route path="/services"        element={<Services />} />
-        <Route path="/projects"        element={<Projects />} />
-        <Route path="/blogs"           element={<Blogs />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/contact" element={<Contact />} />
 
         {/* Pages dropdown routes */}
         <Route path="/service-details" element={<ServiceDetails />} />
-        <Route path="/blog-details"    element={<BlogDetails />} />
-        <Route path="/pricing"         element={<Pricing />} />
+        <Route path="/blog-details" element={<BlogDetails />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
       <Footer />
     </BrowserRouter>
