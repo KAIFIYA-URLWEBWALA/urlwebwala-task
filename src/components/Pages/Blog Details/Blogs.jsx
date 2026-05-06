@@ -8,7 +8,6 @@ import BlogDetailSidebar from "./BlogDetailSidebar";
 import BlogDetailComments from "./BlogDetailComments";
 import BlogDetailCommentForm from "./BlogDetailCommentForm";
 import BlogNewsLetter from "./BlogNewsLetter";
-import Footer from "../Footer";
 
 export default function Blogs() {
   useEffect(() => {

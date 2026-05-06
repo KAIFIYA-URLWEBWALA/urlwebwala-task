@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 /* Free Unsplash image — two colleagues working on laptop */
 const NEWSLETTER_IMG = "/about/cta-right.png";
 
-export default function ServiceNewsletter() {
+export default function PricingNewsletter() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [btnHovered, setBtnHovered] = useState(false);
